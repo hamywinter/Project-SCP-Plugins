@@ -1,4 +1,7 @@
-// Basic Syntax (Created by aaro_1 Just adding it incase I need it for later)
+Infection Plugins:
+
+//__ Infection -> Single Class | Created By Aaro_1, Director/Head Developer of Project Scp
+
 infectionclass = "Class-D"
 Killer.Class ~= infectionclass :: jump(999)
 wait(0.3)
@@ -6,24 +9,6 @@ SetClass(Target,infectionclass)
 wait(0.1)
 Teleport(Target,Killer.Position)
 
-// Script - Testing
-killerclass = killer
-if killerclass == "Class-D" then
-    SetClass(plr, "Class-D")
-    wait(0.5)
-    Teleport(Target,Killer.Position)                                      
-end
-if killerclass == "SCP-049-2" then
-    SetClass(plr, "SCP-049-2")
-    wait(0.5)
-    Teleport(Target,Killer.Position)
-end
+//__ Infection -> Become the class that killed you | Work in progress | Being Created by Hamywinter.
 
-// Testing V2
-
-infectionclass = Killer.Class
-Killer.Class ~= infectionclass :: jump(999)
-wait(0.3)
-SetClass(Target,infectionclass)
-wait(0.1)
-Teleport(Target,Killer.Position)
+// We will update this file when the code is finnished.

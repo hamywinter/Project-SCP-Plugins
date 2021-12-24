@@ -1,0 +1,17 @@
+On nuke start:
+round.SetAudioId("rbxassetid://[Audio Id goes here]")
+round.PlayAudio()
+On round start: 
+round.StopAudio()
+round.SetAudioId("rbxassetid://[Audio Id goes here]")
+round.PlayAudio()
+wait(45)
+round.StopAudio()
+round.SetAudioId("rbxassetid://[Audio Id goes here]")
+round.PlayAudio()
+wait(15)
+round.StopAudio()
+On nuke explosion:
+round.StopAudio()
+round.SetAudioId("rbxassetid://[Audio Id goes here]")
+round.PlayAudio()

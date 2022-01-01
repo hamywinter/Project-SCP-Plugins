@@ -1,0 +1,9 @@
+OnPlayer193Upgrade:
+
+newclass = ""
+lastpos = Plr.Position
+Plr.Class == "Class-D" :: Mode == "Fine" :: newclass = "Janitor"
+Plr.Class == "Janitor" :: Mode == "Coarse" :: newclass = "Class-D"
+newclass ~= "" :: SetClass(Plr,newclass)
+newclass ~= "" :: wait(0.1)
+newclass ~= "" :: Teleport(Plr,lastpos)
